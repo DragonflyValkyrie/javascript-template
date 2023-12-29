@@ -116,7 +116,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconst name = \"James\";\n\nconst person = { first: name };\n\nconsole.log(person);\n\nconst sayHelloLinting = (fName) => {\n  console.log(`Hello linting, ${fName}`);\n};\n\n\n//# sourceURL=webpack://javascript-template/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_helloWorld_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/helloWorld.js */ \"./src/modules/helloWorld.js\");\n\n\n\n(0,_modules_helloWorld_js__WEBPACK_IMPORTED_MODULE_1__.helloWorld)();\n\n\n//# sourceURL=webpack://javascript-template/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/helloWorld.js":
+/*!***********************************!*\
+  !*** ./src/modules/helloWorld.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   helloWorld: () => (/* binding */ helloWorld)\n/* harmony export */ });\nfunction helloWorld() {\n    console.log('Hello, World!');\n}\n\n\n\n\n//# sourceURL=webpack://javascript-template/./src/modules/helloWorld.js?");
 
 /***/ })
 

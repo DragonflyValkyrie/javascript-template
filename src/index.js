@@ -1,13 +1,4 @@
-import "./style.css";
+import './style.css';
+import { helloWorld } from './modules/helloWorld.js';
 
-const name = "James";
-
-const person = { first: name };
-
-console.log(person);
-
-const sayHelloLinting = (fName) => {
-  console.log(`Hello linting, ${fName}`);
-};
-
-console.log(sayHelloLinting);
+helloWorld();
