@@ -1,4 +1,4 @@
 import './style.css';
-import { helloWorld } from './modules/helloWorld.js';
+import helloWorld from './modules/helloWorld';
 
 helloWorld();
